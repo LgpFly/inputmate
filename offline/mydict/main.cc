@@ -15,8 +15,8 @@ const char* const USER_DICT_PATH = "../cppjieba/dict/user.dict.utf8";
 const char* const IDF_PATH = "../cppjieba/dict/idf.utf8";
 const char* const STOP_WORD_PATH = "../cppjieba/dict/stop_words.utf8";
 
-const string AID_DICT_PATH = "../server/data/dict.txt";
-const string AID_INDEX_PATH = "../server/data/index.txt";
+const string AID_DICT_PATH = "../../server/data/dict.txt";
+const string AID_INDEX_PATH = "../../server/data/index.txt";
 
 int main(){
     Configuration *p_config = Singleton<Configuration>::getInstance("configure.txt");
