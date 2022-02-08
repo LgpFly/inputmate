@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package words;
+
+message OneResult{
+    string word = 1;
+    int32 dist = 2;
+    int32 freq = 3;
+}
+
+message Result{
+    repeated OneResult res = 1;
+}
